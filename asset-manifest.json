@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cutie/static/css/main.24efdb68.css",
+    "main.js": "/cutie/static/js/main.f179bdf8.js",
+    "index.html": "/cutie/index.html",
+    "main.24efdb68.css.map": "/cutie/static/css/main.24efdb68.css.map",
+    "main.f179bdf8.js.map": "/cutie/static/js/main.f179bdf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24efdb68.css",
+    "static/js/main.f179bdf8.js"
+  ]
+}
