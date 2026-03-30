@@ -1,7 +1,7 @@
 {
   "name": "my-react-app",
   "version": "1.0.0",
-  "homepage": "https://CedricChia123.github.io/react-gh-pages",
+  "homepage": "https://CedricChia123.github.io/cutie",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
