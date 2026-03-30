@@ -45,7 +45,7 @@ const App: React.FC = () => {
 
   function handleSpecial() {
     // only trigger when current is the special letter
-    if (current === '/letter.png') {
+    if (current === process.env.PUBLIC_URL + '/letter.png') {
       setShowProposal(true);
       // reset any previous growth state
       setYesScale(1);
@@ -123,7 +123,7 @@ const App: React.FC = () => {
       <Header title="" subtitle="Mofusand" />
 
       <main className="main-content">
-        <MofuSpinner imgSrc={current} special={current === '/letter.png'} onSpecialClick={handleSpecial} />
+        <MofuSpinner imgSrc={current} special={current === process.env.PUBLIC_URL + '/letter.png'} onSpecialClick={handleSpecial} />
       </main>
 
       <div className="controls">
